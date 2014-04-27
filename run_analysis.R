@@ -1,7 +1,7 @@
 # Unzip files from working directory
 # Downloaded from http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-unzip("ProjectFilesDataset.zip",exdir="data")
+unzip("getdata_projectfiles_UCI HAR Dataset.zip",exdir="data")
 
 # Libraries needed
 
