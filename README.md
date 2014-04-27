@@ -1,7 +1,7 @@
 cleaningDataProject
 ===================
 
-Final project for Getting and Cleaning Data
+Final project for [Getting and Cleaning Data](https://class.coursera.org/getdata-002)
 
 This projects takes accelerometer data and creates averages of the variables using R.
 
@@ -18,11 +18,11 @@ which measured information from accelerometers on Samsung Galaxy S smartphones t
 5. STANDING
 6. LAYING
 
-The data were downloaded from the following URL:
+The data archive was downloaded from the following URL on April 27, 2014:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-This file is placed in the working directory and is unzipped by the R program in this repository.
+This file must be placed in the working directory before the R program is run. The file is unzipped by the R program in this repository. Only six files are of interest in this analysis. These contain training data and test data which will be joined.
 
 - "UCI HAR Dataset/train/subject_train.txt"
 - "UCI HAR Dataset/test/subject_test.txt"
@@ -39,6 +39,8 @@ This repository contains three files.
 3. The R script, run_analysis.R which processed the data.
 
 ## Variables in Output File
+
+
 
 ## Steps in Creating Output
 
